@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>drogatkin</groupId>
     <artifactId>media-util</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
     <properties>
         <maven.compiler.source>1.7</maven.compiler.source>
@@ -27,4 +27,10 @@
             </plugin>
         </plugins>
     </build>
-</project>
+    <distributionManagement>
+        <repository>
+            <id>stephan</id>
+            <url>file:////home/stephan/maven2</url>
+        </repository>
+    </distributionManagement>
+ </project>
